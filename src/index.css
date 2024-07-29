@@ -20,6 +20,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: black;
+  background: url('./img/PandaMylk-1600.jpg');
+  background-size: cover;
 }
 /*
   5. Improve media defaults
