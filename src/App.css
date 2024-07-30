@@ -16,6 +16,17 @@
   font-size: 8rem;
 }
 
+.album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-cover {
+  width: 300px;
+  border-radius: 1rem;
+}
+
 /* Fancy Anim */
 .glow {
   animation-duration: 2s;
@@ -26,7 +37,7 @@
 }
 @keyframes glow {
   from {
-    text-shadow: -2px 2px rgb(253, 0, 169);
+    text-shadow: -2px 2px rgb(255 70 175);
   } to {
     text-shadow: 2px 2px rgb(0, 0, 0);
   }
