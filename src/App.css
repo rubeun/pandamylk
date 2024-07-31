@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --dark-grey: rgba(0, 0, 0, 0.60);
+  --light-grey: rgb(222, 220, 220);
+  --white: rgba(255, 255, 255, 1);
+  --pink: rgb(255 70 175);
+  --red:  rgb(251, 81, 81);
+  --purple: rgb(158, 6, 241);
+}
+
+body {
+  background-color: var(--black);
+  background: url('./img/PandaMylk-1600.jpg');
+  background-size: cover;  
+}
+
 .App {
   text-align: center;
-  color: rgb(158, 6, 241);
+  color: var(--purple);
   font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -12,7 +28,7 @@
     "SHLN" 50;
 }
 
-.App h1 {
+.App-header h1 {
   font-size: 8rem;
 }
 
@@ -37,8 +53,8 @@
 }
 @keyframes glow {
   from {
-    text-shadow: -2px 2px rgb(255 70 175);
+    text-shadow: -2px 2px var(--pink);
   } to {
-    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-shadow: 2px 2px var(--black);
   }
 }
