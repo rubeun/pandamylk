@@ -8,12 +8,15 @@
   --pink: rgb(255 70 175);
   --red:  rgb(251, 81, 81);
   --purple: rgb(158, 6, 241);
+  --darkblue: rgb(14 43 106);
+  --sand: rgb(228, 206, 163);
 }
-
-body {
-  background-color: var(--black);
-  background: url('./img/PandaMylk-1600.jpg');
-  background-size: cover;  
+/** @@@ MOBILE - DEFAULT @@@ */
+html {
+  background-image: url('./img/PandaMylk-mobile-800.jpg');
+  background-color: var(--sand);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .App {
@@ -29,7 +32,7 @@ body {
 }
 
 .App-header h1 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 .album {
@@ -39,8 +42,36 @@ body {
 }
 
 .album-cover {
-  width: 300px;
+  width: 200px;
   border-radius: 1rem;
+  padding-top: 12rem;
+}
+
+/* @@@ LARGE MOBILE @@@ */
+@media only screen and (min-width: 500px) {
+  html {
+    background-image: url('./img/PandaMylk-1600.jpg');
+    background-size: initial;
+  }
+  .App-header h1 {
+    font-size: 8rem;
+  }
+  .album-cover {
+    width: 300px;
+    border-radius: 1rem;
+    padding-top: 0;
+  }  
+}
+
+/* @@@ DESKTOP @@@ */
+@media only screen and (min-width: 1200px) {
+  html {
+    background-image: url('./img/PandaMylk-1600.jpg');
+    background-size: cover;
+  }
+  .App-header h1 {
+    font-size: 10rem;
+  }  
 }
 
 /* Fancy Anim */
