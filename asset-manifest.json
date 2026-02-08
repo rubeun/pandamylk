@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pandamylk/static/css/main.34e9a31e.css",
+    "main.js": "/pandamylk/static/js/main.d525108c.js",
+    "static/js/453.2119d158.chunk.js": "/pandamylk/static/js/453.2119d158.chunk.js",
+    "static/media/PandaMylk-1600.jpg": "/pandamylk/static/media/PandaMylk-1600.9bd789a6627221cfa069.jpg",
+    "static/media/PandaMylk-mobile-800.jpg": "/pandamylk/static/media/PandaMylk-mobile-800.00c8a04fa47fe4368a93.jpg",
+    "static/media/PandaMylk-Album.jpg": "/pandamylk/static/media/PandaMylk-Album.2e02c35f587689294c17.jpg",
+    "index.html": "/pandamylk/index.html",
+    "main.34e9a31e.css.map": "/pandamylk/static/css/main.34e9a31e.css.map",
+    "main.d525108c.js.map": "/pandamylk/static/js/main.d525108c.js.map",
+    "453.2119d158.chunk.js.map": "/pandamylk/static/js/453.2119d158.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e9a31e.css",
+    "static/js/main.d525108c.js"
+  ]
+}
