@@ -19,6 +19,12 @@ html {
   background-repeat: no-repeat;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
 .App {
   text-align: center;
   color: var(--purple);
