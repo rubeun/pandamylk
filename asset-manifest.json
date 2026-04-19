@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pandamylk/static/css/main.ed82488b.css",
-    "main.js": "/pandamylk/static/js/main.d525108c.js",
+    "main.css": "/pandamylk/static/css/main.cc36121c.css",
+    "main.js": "/pandamylk/static/js/main.090678c5.js",
     "static/js/453.2119d158.chunk.js": "/pandamylk/static/js/453.2119d158.chunk.js",
     "static/media/PandaMylk-1600.jpg": "/pandamylk/static/media/PandaMylk-1600.9bd789a6627221cfa069.jpg",
     "static/media/PandaMylk-mobile-800.jpg": "/pandamylk/static/media/PandaMylk-mobile-800.00c8a04fa47fe4368a93.jpg",
     "static/media/PandaMylk-Album.jpg": "/pandamylk/static/media/PandaMylk-Album.2e02c35f587689294c17.jpg",
     "index.html": "/pandamylk/index.html",
-    "main.ed82488b.css.map": "/pandamylk/static/css/main.ed82488b.css.map",
-    "main.d525108c.js.map": "/pandamylk/static/js/main.d525108c.js.map",
+    "main.cc36121c.css.map": "/pandamylk/static/css/main.cc36121c.css.map",
+    "main.090678c5.js.map": "/pandamylk/static/js/main.090678c5.js.map",
     "453.2119d158.chunk.js.map": "/pandamylk/static/js/453.2119d158.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed82488b.css",
-    "static/js/main.d525108c.js"
+    "static/css/main.cc36121c.css",
+    "static/js/main.090678c5.js"
   ]
 }
