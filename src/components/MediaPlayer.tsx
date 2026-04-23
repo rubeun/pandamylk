@@ -2,7 +2,16 @@ import { useState, useRef } from 'react';
 
 const MediaPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const song1 = process.env.PUBLIC_URL + '/media/PandaMylk-NeonNights.mp3';
+  const [currentTrack, setCurrentTrack] = useState(0);
+
+  const PLAYLIST = [
+    {
+      title: 'Neon Nights',
+      artist: 'PandaMylk',
+      src: process.env.PUBLIC_URL + '/media/PandaMylk-NeonNights.mp3'
+    },
+  ];
+
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const togglePlay = () => {
@@ -19,8 +28,11 @@ const MediaPlayer = () => {
 
   return (
     <div className="media-player">
-      <audio ref={audioRef} src={song1} />
-      <button className='player-button' onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button>  
+      <div className="track-info">
+        <p>{PLAYLIST[currentTrack].artist} - {PLAYLIST[currentTrack].title}</p>
+      </div>
+      <audio ref={audioRef} src={PLAYLIST[currentTrack].src} />
+      <button className='player-button glow' onClick={togglePlay}>{isPlaying ? '⏸' : '▶'}</button>  
     </div>
   );
 }
