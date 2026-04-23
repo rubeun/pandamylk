@@ -54,12 +54,32 @@ body {
   padding-top: 0;
 }
 
+.media-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--pink);
+  & .track-info {
+    width: 200px;
+    background-color: var(--black);
+    padding: 0.5rem 1rem; 
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  & button {
+    width: 50px;
+    background-color: var(--black);
+    border-radius: 0.5rem;
+  }
+} 
+
 .player-button {
   background: none;
   border: none;
-  color: var(--pink);
-  font-size: 2rem;
   cursor: pointer;
+  color: var(--pink);
 }
 
 /* @@@ LARGE MOBILE @@@ */
